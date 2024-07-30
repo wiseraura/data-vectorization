@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "data-vectorization"
+version = "0.1.0"
+description = ""
+authors = ["mrwise <phibien1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.1"
+motor = "^3.5.1"
+qdrant-client = "^1.10.1"
+pydantic-settings = "^2.3.4"
+beanie = "^1.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
